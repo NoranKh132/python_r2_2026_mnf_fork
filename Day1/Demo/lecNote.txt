@@ -1,0 +1,35 @@
+=====> History
+
+========> Git Stages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working Area                   Staging Area                Local Repo   (git)          Remote Repo
+
+Your Pc 
+untracked Files
+(new files , Folders)                            
+----------
+Updates                           
+        =================================>
+                               git add fileName 
+                              git add File1(folder) File2(folder)
+                              git add .
+                                             ===========> git commit -m "MSG"
+                                                             ---> Version <---
+                                                             SnapShot
+
+
+
+                                                                             ==============> 

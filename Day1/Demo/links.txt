@@ -1,0 +1,10 @@
+install git windoes : https://git-scm.com/install/windows
+install git linux: https://git-scm.com/install/linux
+install git mac: https://git-scm.com/install/mac
+
+
+
+
+
+============> git : tool make local 
+============> gitHub : server store repos 
