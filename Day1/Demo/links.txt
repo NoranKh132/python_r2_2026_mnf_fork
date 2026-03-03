@@ -79,6 +79,9 @@ README.md ==========> file (Markdown language)
 markUP : tag ===> text
 Markdown : text ==>styletag
 
+Markdown : https://www.markdownguide.org/cheat-sheet/
+EXample : https://github.com/facebook/react
+
 
 =============> File .gitignore   --------> .git
          ----> path files that you don't want to uploaded on github

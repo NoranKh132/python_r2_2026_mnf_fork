@@ -1,0 +1,11 @@
+============> on my repo : create file with your name (information of ssh) on folder tasks   ----------> commit message   =--> "docs:message"
+
+
+
+=============> on your accout : create repo ---> upload project front ---> github pages + add me as collaborator 
+                        =====> "version: version 1 "    ========> add readme file ===> project 
+----------------------- username : ayaatadel ---------
+
+
+====================> SSH KEY  ---->  searech ===> apply on your github -------> 
+                all details ====> commads    (pdf)
