@@ -18,3 +18,29 @@ vs core : git config --global core.editor "code --wait"
 ============> gitHub : server store repos 
 
 
+
+
+Steps :
+  Upload on remote repo on git 
+
+  =========> first time   (create repo on git hub + add local repo (with out start))
+         git init 
+         git status (add , commit)
+         git add .
+         git commit -m "Msg"
+         git remote add origin "https://github.com/ayaatadel/python_r2_2026_mnf"       
+         git push origin master
+
+    ==================> github ===> init git 
+    git status (add , commit)
+         git add .
+         git commit -m "Msg"
+        git remote add origin "https://github.com/ayaatadel/python_r2_2026_mnf"       
+         git push origin master
+
+================================> after link between github
+updates ====> create files , updates
+        git status (add , commit)
+         git add .
+         git commit -m "Msg"
+         git push origin master

@@ -47,7 +47,7 @@ e775629 docs:add lec1 notes in github course
 
 Working Area                   Staging Area                Local Repo   (git)          Remote Repo
 
-Your Pc 
+Your Pc                                                                        =======>
 untracked Files
 (new files , Folders)                            
 ----------
@@ -73,6 +73,16 @@ Updates
                         git reset file1_name  file2_name
                         git reset : reset all added files
 
+                                                                  ======================>
+                                                                  handel configration 
+                                                                  git config --global user.name "iti"
+                                                                  git config --global user.email "iti@gmail.com"
 
+
+                                                                   link (local , remote )       ------->       username      repoName
+                                                                   git remote add origin "https://github.com/ayaatadel/python_r2_2026_mnf"       
+                                                                    git push origin master
+                                                                    -----> origin : variable 
+                                                                    -----> master :branch  
 
                                                             
