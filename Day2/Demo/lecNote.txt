@@ -1,0 +1,37 @@
+Branches : 
+feature ---> new , fix , release new version 
+
+
+---- Master 
+---- index 
+-- fix login
+-- navbar
+
+
+create branch : git branch branchName 
+
+----------> new branch take all commits that in parent 
+
+Name Convension : 
+
+feature/add-user-authentication
+bugfix/fix-header-css
+hotfix/security-vulnerability-patch
+release/v1.3.0
+improvement/refactor-database-layer
+experiment/implement-new-ui
+
+
+------
+list branches : 
+local : git branch
+remote : git branch -r  
+-------
+switch to another branch : git switch branchName
+switch to another branch : git checkout  branchName
+
+switch + create : git  swicth -c  branchName
+
+
+--- status : add ===> git add
+-------------> stash 
