@@ -28,6 +28,22 @@ local : git branch
 remote : git branch -r  
 -------
 switch to another branch : git switch branchName
+switch to another branch : git checkout branchName
+switch + create : git switch  -c branchName
 
---- status : add ===> git add
--------------> stash 
+--- status : add ===> git add , commit 
+-------------> stash  : while wanting switch to another branch without saving chages (add , commit)
+
+create stash : git stash 
+list stashes : git stash list
+show stash : git stash apply 
+show stash : git stash pop
+
+apply                 pop
+show stash             show stash 
+saved in stash        remove stash queue
+
+clear stash : git stash clear
+show files has stash : git stash show 
+delete specific stash : git stash drop stash_id (stash@{0})
+                        
