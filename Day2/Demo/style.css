@@ -6,12 +6,25 @@
     margin: o;
 
 }
-
-:root{
-    --main-text-family:'Franklin Gothic Medium'
---main-color:gray;
+main {
+    padding: 20px;
+    min-height: calc(100vh - 200px);
 }
-header section section{
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+section form{
+display:flex;
+justify-content: space-around;
+}
+:root{
+    --main-text-family:'Franklin Gothic Medium';
+    --main-color:gray;
+}
+header section{
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -19,7 +32,8 @@ header section section{
 }
 header section section p{
     text-align: center;
-    color: brown;
+    margin: 30px;
+    color: blueviolet;
     padding: 2px;
 }
 nav ul li {
@@ -30,15 +44,19 @@ nav ul li {
     background-color: var(--main-color);
 }
 
-
-footer section{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
 nav header{
     display: flex;
+ ul li a span{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1px 2px 1px 2px;
+    color: rgb(42, 165, 128);
+    padding: 2px;
+    margin: 10px;
+    -webkit-border-radius: 1px 2px 1px 2px;
+    -moz-border-radius: 1px 2px 1px 2px;
+    -ms-border-radius: 1px 2px 1px 2px;
+    -o-border-radius: 1px 2px 1px 2px;
 }
 nav ul li a{
     text-align: center;
@@ -57,17 +75,6 @@ nav ul li a:hover {
     transition: 0.3s ease;
 }
 
-main {
-    padding: 20px;
-    min-height: calc(100vh - 200px);
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
 footer {
     background-color: var(--main-color);
     color: white;
@@ -76,6 +83,11 @@ footer {
     margin-top: auto;
 }
 
+footer section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 footer section p {
     margin: 5px;
 }
