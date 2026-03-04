@@ -43,9 +43,7 @@ nav ul li {
     color: blueviolet;
     background-color: var(--main-color);
 }
-
-nav header{
-    display: flex;
+    
  ul li a span{
     text-align: center;
     text-decoration: none;

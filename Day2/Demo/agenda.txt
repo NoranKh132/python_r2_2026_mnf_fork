@@ -8,7 +8,7 @@
    -- pull request
       -- without conflicts   ---> change in currect  (login take all changes in master)
       pull master in login =====> current : login  , incomming : master
-      -- with conflicts 
+      -- with conflicts ==> changes will be updated in two branches
 -- Stashing
    -- create stash
    -- list
